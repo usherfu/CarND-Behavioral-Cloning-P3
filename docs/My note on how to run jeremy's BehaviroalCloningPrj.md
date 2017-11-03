@@ -1,5 +1,7 @@
 My note on how to run [jeremy's CarND-Behaviroal-Cloning-Project](https://github.com/jeremy-shannon/CarND-Behavioral-Cloning-Project)
 
+PS: Also try to run [upul's project](https://github.com/upul/Behavioral-Cloning)
+
 # Problem encoutered
 
 #### Cannot read Keras model 

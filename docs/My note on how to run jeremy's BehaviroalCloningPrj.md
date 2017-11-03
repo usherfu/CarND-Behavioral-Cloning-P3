@@ -36,8 +36,9 @@ make -j"$(nproc)"  && \
 make install && \
 ldconfig && \
 
+mv /usr/local/lib/python3.5/dist-packages/cv2.cpython-35m-x86_64-linux-gnu.so /usr/local/lib/python3.5/dist-packages/cv2.so
 cd /usr/local/lib/python3.5 && mkdir site-packages 
-mv /usr/local/lib/python3.5/dist-packages/cv2/cv2.cpython-35m-x86_64-linux-gnu.so /usr/local/lib/python3.5/site-packages/cv2.so
+ln -s /usr/local/lib/python3.5/dist-packages/cv2.so /usr/local/lib/python3.5/site-packages/cv2.so
 
 ```
 

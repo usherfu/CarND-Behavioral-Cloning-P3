@@ -8,7 +8,7 @@ PS: Also try to run [upul's project](https://github.com/upul/Behavioral-Cloning)
 Uninstall Keras 2.0 in the docker image and reinstall Keras 1.2.0, as the model is saved in Keras 1.2 version. and it seems not compatible with Keras 2.x
 
 ```bash
-  pip3 uninstall keras
+  pip3 uninstall -y keras
   pip3 install keras==1.2.0
 ```
 
@@ -100,4 +100,3 @@ plt.show()
 - Set env variable "export QT_X11_NO_MITSHM=1" to avoid blank screen (no picture showing)
 	https://github.com/P0cL4bs/WiFi-Pumpkin/issues/53
 	
-

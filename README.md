@@ -1,3 +1,59 @@
+
+
+
+
+
+
+
+
+
+
+## Train model
+
+
+Steering ratio
+- https://zhengludwig.wordpress.com/projects/self-driving-rc-car/
+ build CNN to directly predict "left, right, forward, reverse"
+
+https://medium.com/@ksakmann/behavioral-cloning-make-a-car-drive-like-yourself-dc6021152713
+
+center,left,right,steering,throttle,brake,speed
+
+1. collect data and preprocessing the data (augmentation, steering and etc)
+2. train the model with collected data
+3. test model
+
+repo on self driving car
+https://github.com/upul/Behavioral-Cloning
+https://github.com/harvitronix/reinforcement-learning-car
+
+##### run python script to autonomous drive
+python3 drive.py model.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> Below are from original Udaicity Behaviorial Cloing Project
+
 # Behaviorial Cloning Project
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
